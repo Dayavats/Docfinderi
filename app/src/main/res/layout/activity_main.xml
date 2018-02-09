@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="DOCTORS PORTAL"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        android:id="@+id/dcbtn"/>
+
+    <Button
+        android:id="@+id/patbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="PATIENTS PORTAL"
+        android:textSize="30dp"
+        android:onClick="doclist"/>
+
+</LinearLayout>
